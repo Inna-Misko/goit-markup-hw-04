@@ -320,7 +320,7 @@ a {
 /* Stuff */
 .social-icon-list {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .social-icon-item {
@@ -335,8 +335,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: auto;
-  margin-left: auto;
+
   width: 44px;
   height: 44px;
   background-color: var(--white);
@@ -349,9 +348,20 @@ a {
   height: 20px;
 }
 
+.social-icon-link:hover {
+  color: var(--accent-color);
+}
+
+.social-icon-link:hover .social-icon,
+.social-icon-link:focus .social-icon {
+  color: var(--accent-color);
+  fill: var(--white);
+}
+
 .staff {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: #000000;
 }
 
 .staff-list {
@@ -403,6 +413,77 @@ a {
 
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+/* regular customers */
+.customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+}
+
+.customers-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.customers-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.customers-link {
+  fill: var(--social-icon-color);
+}
+
+.customers-link .logo-1 {
+  width: 44px;
+  height: 49px;
+}
+
+.customers-link .logo-2 {
+  width: 40px;
+  height: 52px;
+}
+
+.customers-link .logo-3 {
+  width: 41px;
+  height: 42px;
+}
+
+.customers-link .logo-4 {
+  width: 80px;
+  height: 42px;
+}
+
+.customers-link .logo-5 {
+  width: 59px;
+  height: 47px;
+}
+
+.customers-link .logo-6 {
+  width: 88px;
+  height: 45px;
+}
+
+.title {
+  margin: 0px;
+  margin-bottom: 50px;
+
+  color: var(--dark-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
 }
