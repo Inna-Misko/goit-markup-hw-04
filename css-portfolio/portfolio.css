@@ -127,6 +127,7 @@ a {
 /* Contacts Header */
 .contacts {
   display: flex;
+  align-items: center;
 }
 
 .adress_link {
@@ -135,9 +136,10 @@ a {
   fill: #757575;
   width: 16px;
   height: 12px;
+  align-items: center;
 }
 
-.adress_link .phone {
+.phone {
   width: 10px;
   height: 16px;
 }
@@ -154,11 +156,15 @@ a {
   color: var(--main-color);
 }
 
+.contacts-link:hover .adress_link,
+.contacts-link:focus .adress_link {
+  fill: var(--accent-color);
+}
+
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
 }
-
 /* filter */
 .filter {
   padding-bottom: 50px;

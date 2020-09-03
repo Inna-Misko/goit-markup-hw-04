@@ -7,6 +7,7 @@
   --footer-addres-color: rgba(255, 255, 255, 0.6);
   --bg-footer-color: #2f303a;
   --bg-color-main: #e5e5e5;
+  --social-icon-color: #afb1b8;
 }
 
 body {
@@ -146,6 +147,8 @@ a {
 }
 
 .contacts .contacts-link {
+  display: flex;
+  align-items: center;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -315,6 +318,31 @@ a {
 }
 
 /* Stuff */
+.social-icon-list {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--white);
+  border-radius: 50%;
+}
+
+.social-icon {
+  fill: var(--social-icon-color);
+  width: 20px;
+  height: 20px;
+}
+
 .staff {
   padding-top: 94px;
   padding-bottom: 94px;
