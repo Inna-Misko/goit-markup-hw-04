@@ -129,6 +129,19 @@ a {
   display: flex;
 }
 
+.adress_link {
+  display: inline-block;
+  margin-right: 10px;
+  fill: #757575;
+  width: 16px;
+  height: 12px;
+}
+
+.adress_link .phone {
+  width: 10px;
+  height: 16px;
+}
+
 .contacts .item:first-child {
   margin-right: 50px;
 }

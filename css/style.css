@@ -124,6 +124,21 @@ a {
 /* Contacts Header */
 .contacts {
   display: flex;
+  align-items: center;
+}
+
+.adress_link {
+  display: inline-block;
+  margin-right: 10px;
+  fill: #757575;
+  width: 16px;
+  height: 12px;
+  align-items: center;
+}
+
+.phone {
+  width: 10px;
+  height: 16px;
 }
 
 .contacts .item:first-child {
@@ -136,6 +151,11 @@ a {
   font-size: 14px;
   line-height: 1.14;
   color: var(--main-color);
+}
+
+.contacts-link:hover .adress_link,
+.contacts-link:focus .adress_link {
+  fill: var(--accent-color);
 }
 
 .contacts-link:hover,
@@ -236,19 +256,19 @@ a {
 }
 
 .edge-item:nth-child(1)::before {
-  background-image: url(../img/antenna1.svg);
+  background-image: url(../img/Edges-icons/antenna1.svg);
 }
 
 .edge-item:nth-child(2)::before {
-  background-image: url(../img/clock2.svg);
+  background-image: url(../img/Edges-icons/clock2.svg);
 }
 
 .edge-item:nth-child(3)::before {
-  background-image: url(../img/diagram3.svg);
+  background-image: url(../img/Edges-icons/diagram3.svg);
 }
 
 .edge-item:nth-child(4)::before {
-  background-image: url(../img/astronaut4.svg);
+  background-image: url(../img/Edges-icons/astronaut4.svg);
 }
 
 .edge-hidden {
