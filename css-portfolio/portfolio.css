@@ -359,6 +359,7 @@ a {
   height: 20px;
 }
 
-.footer-icon-link:hover {
+.footer-icon-link:hover,
+.footer-icon-link:focus {
   background-color: var(--accent-color);
 }
