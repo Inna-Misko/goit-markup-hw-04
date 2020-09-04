@@ -178,6 +178,7 @@ a {
     ),
     url(../img/bg-image-hero.jpg);
   background-size: cover;
+  background-position: center;
 
   color: var(--white);
   padding-top: 200px;
