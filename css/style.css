@@ -177,7 +177,7 @@ a {
       rgba(47, 48, 58, 0.4)
     ),
     url(../img/bg-image-hero.jpg);
-  background-size: contain;
+  background-size: cover;
 
   color: var(--white);
   padding-top: 200px;
