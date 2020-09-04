@@ -169,7 +169,7 @@ a {
 .hero {
   height: 600px;
   max-width: 1600px;
-  background-color: #c4c4c4;
+
   background-repeat: no-repeat;
   background-image: linear-gradient(
       to right,
